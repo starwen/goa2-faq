@@ -117,20 +117,20 @@
         "alternative": true
     },
     {
-        "id": "ign-blue-ii-violent-conflagration",
+        "id": "ign-blue-iii-violent-conflagration",
         "name": "Violent Conflagration",
         "color": "blue",
         "type": "skill",
-        "tier": "II",
+        "tier": "III",
         "text": "::tiebreaker_blue::: An enemy hero in radius adjacent to a token or a minion discards a card, or is defeated.\n--- \n::tiebreaker_orange:: Defeat an enemy minion in radius adjacent to an enemy hero.",
         "alternative": false
     },
     {
-        "id": "ign-blue-ii-scorching-blaze",
+        "id": "ign-blue-iii-scorching-blaze",
         "name": "Scorching Blaze",
         "color": "blue",
         "type": "skill",
-        "tier": "II",
+        "tier": "III",
         "text": "::tiebreaker_blue::: Move a friendly hero in radius 2 or 3 spaces in a straight line.\n--- \n::tiebreaker_orange:: Move an enemy hero in radius 2 or 3 spaces in a straight line.",
         "alternative": true
     },
