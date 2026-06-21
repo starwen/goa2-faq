@@ -10,6 +10,7 @@ export const locales = {
     // es: { label: 'Español', flag: '🇪🇸' },
     // fr: { label: 'Français', flag: '🇫🇷' },
     // it: { label: 'Italiano', flag: '🇮🇹' },
+    zh: { label: '中文', flag: 'ZH' },
 };
 
 const defaultLocale = (function () {
