@@ -1,10 +1,10 @@
 {
   "name": "goa2-faq",
   "version": "1.0.5",
-  "homepage": "https://yvo-niedrich.github.io/goa2-faq",
+  "homepage": "https://starwen.github.io/goa2-faq",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yvo-niedrich/goa2-faq"
+    "url": "https://github.com/starwen/goa2-faq"
   },
   "private": true,
   "type": "module",
