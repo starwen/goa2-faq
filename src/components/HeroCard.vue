@@ -123,13 +123,13 @@ function processCardType(type: Card['type']) {
         min-width: 95%;
 
         position: relative;
-        font-family: 'ModestoPoster', serif;
-        font-size: 1.6em;
+        font-family: 'ModestoPoster';
+        font-size: 1.5em;
 
         color: var(--color-text-dark);
         text-shadow: 0 0 3px #FFFFFF;
 
-        text-shadow: -1px -1px 2px #f3f3f0, 1px -1px 2px #f3f3f0, -1px 1px 2px #f3f3f0, 1px 1px 2px #f3f3f0;
+        /* text-shadow: -1px -1px 2px #f3f3f0, 1px -1px 2px #f3f3f0, -1px 1px 2px #f3f3f0, 1px 1px 2px #f3f3f0; */
         background: #cfccc2;
         background: linear-gradient(180deg, #dbdad5 0%, #b7b4ae 45%, #b7b4ae 55%, #dbdad5 100%);
 
