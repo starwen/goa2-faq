@@ -1,7 +1,7 @@
 [
     {
         "id": "ari-gold-noble-blade",
-        "name": "Noble Blade",
+        "name": "精灵宝剑",
         "color": "gold",
         "type": "basic attack",
         "tier": null,
@@ -10,7 +10,7 @@
     },
     {
         "id": "ari-gold-h-ceremonial-blade",
-        "name": "Ceremonial Blade",
+        "name": "精灵宝剑【弱化】",
         "color": "gold",
         "type": "basic attack",
         "tier": "H",
@@ -19,7 +19,7 @@
     },
     {
         "id": "ari-silver-spell-break",
-        "name": "Spell Break",
+        "name": "破咒领域",
         "color": "silver",
         "type": "basic skill",
         "tier": null,
@@ -28,7 +28,7 @@
     },
     {
         "id": "ari-purple-iv-living-tsunami",
-        "name": "Living Tsunami",
+        "name": "海啸领主",
         "color": "purple",
         "type": "ultimate",
         "tier": "IV",
@@ -37,7 +37,7 @@
     },
     {
         "id": "ari-blue-i-aspiring-duelist",
-        "name": "Aspiring Duelist",
+        "name": "比试剑招",
         "color": "blue",
         "type": "defense",
         "tier": "I",
@@ -46,7 +46,7 @@
     },
     {
         "id": "ari-red-i-dangerous-current",
-        "name": "Dangerous Current",
+        "name": "汹涌剑气",
         "color": "red",
         "type": "attack",
         "tier": "I",
@@ -55,7 +55,7 @@
     },
     {
         "id": "ari-green-i-liquid-leap",
-        "name": "Liquid Leap",
+        "name": "水影遁行",
         "color": "green",
         "type": "skill - ranged",
         "tier": "I",
@@ -64,7 +64,7 @@
     },
     {
         "id": "ari-blue-ii-expert-duelist",
-        "name": "Expert Duelist",
+        "name": "一决高下",
         "color": "blue",
         "type": "defense",
         "tier": "II",
@@ -73,7 +73,7 @@
     },
     {
         "id": "ari-red-ii-rogue-wave",
-        "name": "Rogue Wave",
+        "name": "狂浪冲击",
         "color": "red",
         "type": "attack - ranged",
         "tier": "II",
@@ -82,7 +82,7 @@
     },
     {
         "id": "ari-green-ii-magical-current",
-        "name": "Magical Current",
+        "name": "暗流遁行",
         "color": "green",
         "type": "skill - ranged",
         "tier": "II",
@@ -91,7 +91,7 @@
     },
     {
         "id": "ari-blue-ii-slippery-ground",
-        "name": "Slippery Ground",
+        "name": "湿滑难行",
         "color": "blue",
         "type": "movement",
         "tier": "II",
@@ -100,7 +100,7 @@
     },
     {
         "id": "ari-red-ii-raging-stream",
-        "name": "Raging Stream",
+        "name": "激流剑气",
         "color": "red",
         "type": "attack",
         "tier": "II",
@@ -109,7 +109,7 @@
     },
     {
         "id": "ari-green-ii-arcane-whirlpool",
-        "name": "Arcane Whirlpool",
+        "name": "漩涡潜航",
         "color": "green",
         "type": "skill - ranged",
         "tier": "II",
@@ -118,7 +118,7 @@
     },
     {
         "id": "ari-blue-iii-master-duelist",
-        "name": "Master Duelist",
+        "name": "生死对决",
         "color": "blue",
         "type": "defense",
         "tier": "III",
@@ -127,7 +127,7 @@
     },
     {
         "id": "ari-red-iii-violent-torrent",
-        "name": "Violent Torrent",
+        "name": "洪流剑气",
         "color": "red",
         "type": "attack",
         "tier": "III",
@@ -136,7 +136,7 @@
     },
     {
         "id": "ari-green-iii-stranger-tide",
-        "name": "Stranger Tide",
+        "name": "骇浪遁行",
         "color": "green",
         "type": "skill - ranged",
         "tier": "III",
@@ -145,7 +145,7 @@
     },
     {
         "id": "ari-blue-iii-deluge",
-        "name": "Deluge",
+        "name": "洪水淹没",
         "color": "blue",
         "type": "movement",
         "tier": "III",
@@ -154,7 +154,7 @@
     },
     {
         "id": "ari-red-iii-tidal-blast",
-        "name": "Tidal Blast",
+        "name": "巨浪冲击",
         "color": "red",
         "type": "attack - ranged",
         "tier": "III",
@@ -163,7 +163,7 @@
     },
     {
         "id": "ari-green-iii-ebb-and-flow",
-        "name": "Ebb and Flow",
+        "name": "潮涌潜航",
         "color": "green",
         "type": "skill - ranged",
         "tier": "III",
