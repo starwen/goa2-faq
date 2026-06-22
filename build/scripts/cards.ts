@@ -73,7 +73,8 @@ export function loadCards(file: string | string[], withTranslation = true): Card
         for (const card of getFile(f)) {
             c.push({
                 id: card.id,
-                name: card.name,
+                // try to implement hero card name translation
+                name: withTranslation ? `${card.id}.name` : card.name,
                 color: toColor(card.color),
                 type: toType(card.type),
                 text: withTranslation ? `${card.id}.text` : card.text,
