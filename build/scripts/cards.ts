@@ -53,7 +53,8 @@ export function translationMap(file: string | string[] = []): TranslationMap {
             if (t.hasOwnProperty(`${card.id}.text`)) {
                 throw new Error(`Card is not unique: ${card.id} (${card.name})`);
             }
-
+            // try to implement hero card name translation
+            t[`${card.id}.name`] = card.name;
             t[`${card.id}.text`] = card.text;
         }
     }
