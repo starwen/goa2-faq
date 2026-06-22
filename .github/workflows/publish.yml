@@ -21,7 +21,7 @@ jobs:
       - name: Determine source branch of release tag
         id: get_branch
         run: |
-          TAG_NAME="${GITHUB_REF##*/}"
+          TAG_NAME="${GITHUB_REF_NAME}"
           COMMIT_SHA=$(git rev-list -n 1 "$TAG_NAME")
           BRANCH_NAME=$(git branch -r --contains "$COMMIT_SHA" | grep -v 'HEAD' | grep 'origin/' | head -n1 | sed 's|origin/||')
           echo "commit: $COMMIT_SHA"
