@@ -1,7 +1,7 @@
 [
     {
         "id": "bro-gold-onslaught",
-        "name": "冲跳斩",
+        "name": "Onslaught",
         "color": "gold",
         "type": "basic attack",
         "tier": null,
@@ -10,7 +10,7 @@
     },
     {
         "id": "bro-gold-h-leap-forward",
-        "name": "冲跳斩【弱化】",
+        "name": "Leap Forward",
         "color": "gold",
         "type": "basic attack",
         "tier": "H",
@@ -19,7 +19,7 @@
     },
     {
         "id": "bro-silver-bulwark",
-        "name": "不动如山",
+        "name": "Bulwark",
         "color": "silver",
         "type": "basic skill",
         "tier": null,
@@ -28,7 +28,7 @@
     },
     {
         "id": "bro-purple-iv-one-man-army",
-        "name": "万夫莫敌",
+        "name": "One Man Army",
         "color": "purple",
         "type": "ultimate",
         "tier": "IV",
@@ -37,7 +37,7 @@
     },
     {
         "id": "bro-blue-i-brutal-jab",
-        "name": "暴力刺拳",
+        "name": "Brutal Jab",
         "color": "blue",
         "type": "skill",
         "tier": "I",
@@ -46,7 +46,7 @@
     },
     {
         "id": "bro-red-i-mad-dash",
-        "name": "莽夫冲锋",
+        "name": "Mad Dash",
         "color": "red",
         "type": "attack",
         "tier": "I",
@@ -55,7 +55,7 @@
     },
     {
         "id": "bro-green-i-shield",
-        "name": "架盾掩护",
+        "name": "Shield",
         "color": "green",
         "type": "skill",
         "tier": "I",
@@ -64,7 +64,7 @@
     },
     {
         "id": "bro-blue-ii-mighty-punch",
-        "name": "猛烈勾拳",
+        "name": "Mighty Punch",
         "color": "blue",
         "type": "skill",
         "tier": "II",
@@ -73,7 +73,7 @@
     },
     {
         "id": "bro-red-ii-bullrush",
-        "name": "蛮牛冲锋",
+        "name": "Bullrush",
         "color": "red",
         "type": "attack",
         "tier": "II",
@@ -82,7 +82,7 @@
     },
     {
         "id": "bro-green-ii-bolster",
-        "name": "盾墙战术",
+        "name": "Bolster",
         "color": "green",
         "type": "skill",
         "tier": "II",
@@ -91,7 +91,7 @@
     },
     {
         "id": "bro-blue-ii-shield-bash",
-        "name": "盾牌猛击",
+        "name": "Shield Bash",
         "color": "blue",
         "type": "skill",
         "tier": "II",
@@ -100,7 +100,7 @@
     },
     {
         "id": "bro-red-ii-throwing-axe",
-        "name": "战斧投掷",
+        "name": "Throwing Axe",
         "color": "red",
         "type": "attack - ranged",
         "tier": "II",
@@ -109,7 +109,7 @@
     },
     {
         "id": "bro-green-ii-war-drummer",
-        "name": "振奋战鼓",
+        "name": "War Drummer",
         "color": "green",
         "type": "skill - ranged",
         "tier": "II",
@@ -118,7 +118,7 @@
     },
     {
         "id": "bro-blue-iii-savage-kick",
-        "name": "残暴飞踢",
+        "name": "Savage Kick",
         "color": "blue",
         "type": "skill",
         "tier": "III",
@@ -127,7 +127,7 @@
     },
     {
         "id": "bro-red-iii-furious-charge",
-        "name": "狂怒冲锋",
+        "name": "Furious Charge",
         "color": "red",
         "type": "attack",
         "tier": "III",
@@ -136,7 +136,7 @@
     },
     {
         "id": "bro-green-iii-fortify",
-        "name": "铁壁盾阵",
+        "name": "Fortify",
         "color": "green",
         "type": "skill",
         "tier": "III",
@@ -145,7 +145,7 @@
     },
     {
         "id": "bro-blue-iii-counterattack",
-        "name": "巨斧反击",
+        "name": "Counterattack",
         "color": "blue",
         "type": "skill",
         "tier": "III",
@@ -154,7 +154,7 @@
     },
     {
         "id": "bro-red-iii-throwing-spear",
-        "name": "长矛投掷",
+        "name": "Throwing Spear",
         "color": "red",
         "type": "attack - ranged",
         "tier": "III",
@@ -163,7 +163,7 @@
     },
     {
         "id": "bro-green-iii-master-skald",
-        "name": "激励演奏",
+        "name": "Master Skald",
         "color": "green",
         "type": "skill - ranged",
         "tier": "III",
