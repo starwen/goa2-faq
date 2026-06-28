@@ -15,17 +15,8 @@ const props = withDefaults(
     }
 );
 
-
 const filterName = ref('');
 const filterTier = ref<string[]>([]);
-
-// 监听 tiers（下拉框选项），在数据加载完的第一时间自动勾选除了 'H' 之外的所有选项
-watch(tiers, (newTiers) => {
-    // 增加一个标记，确保只有在页面第一次完全加载、且没有任何勾选时才赋默认值
-    if (filterTier.value.length === 0 && newTiers.length > 0) {
-        filterTier.value = newTiers.filter(t => t !== 'H');
-    }
-}, { immediate: true });
 
 const tiers = computed(() => {
     return props.cards
@@ -37,6 +28,14 @@ const tiers = computed(() => {
             return a.localeCompare(b);
         });
 });
+
+// 监听 tiers（下拉框选项），在数据加载完的第一时间自动勾选除了 'H' 之外的所有选项
+watch(tiers, (newTiers) => {
+    // 增加一个标记，确保只有在页面第一次完全加载、且没有任何勾选时才赋默认值
+    if (filterTier.value.length === 0 && newTiers.length > 0) {
+        filterTier.value = newTiers.filter(t => t !== 'H');
+    }
+}, { immediate: true });
 
 const columns = computed(() => props.cards.slice(0).reduce<Card[][]>(
     (acc, current) => {
