@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue';
+import { computed, ref, watch } from 'vue';
 import { cardColumn } from '@/helper/cards';
 import HeroCard from './HeroCard.vue';
 import SearchInput from './SearchInput.vue';
