@@ -909,7 +909,7 @@
     "swi-green-iii-killing-ground.name": "火力地带",
     "swi-blue-iii-mobile-scout.name": "掠空侦察",
     "swi-red-iii-super-shotgun.name": "超级霰弹枪",
-    "swi-green-iii-hunting-season.text": "打猎季节",
+    "swi-green-iii-hunting-season.name": "打猎季节",
     
     "swi-gold-reload-.text": "**选择以下一项：**\n- 执行你最右边已结算卡牌的主要行动。\n- 击败相邻的一个小兵。",
     "swi-gold-h-backup.text": "执行你最右边已结算卡牌的主要行动。若你执行的是攻击行动，你不能指定小兵作为目标。",
