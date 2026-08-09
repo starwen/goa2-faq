@@ -108,7 +108,7 @@ export function toType(value: string): CardType {
                 basic = true;
                 break;
             default:
-                if (['attack', 'movement', 'ultimate', 'skill', 'defense'].includes(word)) {
+                if (['attack', 'movement', 'ultimate', 'defense', 'skill'].includes(word)) {
                     type.push(word as ActionType);
                 }
         }
@@ -121,7 +121,7 @@ export function toType(value: string): CardType {
     return { ranged, basic, type: type.sort(primaryActionsFirst) };
 }
 
-const primaryActions: ActionType[] = ['skill', 'attack', 'defense', 'movement'];
+const primaryActions: ActionType[] = ['defense', 'skill', 'attack', 'movement'];
 function primaryActionsFirst(a: ActionType, b: ActionType) {
     const aIndex = primaryActions.indexOf(a);
     const bIndex = primaryActions.indexOf(b);
