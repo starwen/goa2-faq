@@ -16,7 +16,7 @@ declare interface CardAttributes {
     radius?: number;
 }
 
-declare type ActionType = 'attack' | 'movement' | 'ultimate' | 'skill' | 'defense';
+declare type ActionType = 'attack' | 'movement' | 'ultimate' | 'defense' | 'skill';
 
 declare interface CardType {
     basic: boolean;
