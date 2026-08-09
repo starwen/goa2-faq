@@ -990,7 +990,7 @@
     "han-blue-iii-that-way-.name": "跑去那边！",
     "han-red-iii-pile-on.name": "以多欺少",
     "han-green-iii-see-nothing.name": "视而不见", 
-    
+
     "han-gold-fight-and-flight.text": "攻击相邻的一个单位。\n若目标没有被击败，在攻击后：如果可行，你以直线方向移动3格。",
     "han-gold-h-fight-or-flight.text": "攻击相邻的一个英雄。\n若目标没有被击败，在攻击后：如果可行，你以直线方向移动3格。",
     "han-silver-hurry-up-.text": "将射程内一个英雄的一张未结算卡牌的牌面 ::initiative:: 速度值改为11，直到该卡牌被结算或其状态改变为止。\n_(这可能会改变行动顺序或导致平手冲突)_",
