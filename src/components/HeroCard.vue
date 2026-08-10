@@ -38,7 +38,7 @@ function processCardType(type: Card['type']) {
         :role="hasFaq ? 'button' : undefined" :tabindex="hasFaq ? 0 : undefined"
         :title="hasFaq ? $t('app.faq.hint') : undefined"
         :aria-label="hasFaq ? `${card.name} — ${$t('app.faq.hint')}` : undefined">
-        <div class="hero-card-name">{{ card.name }}</div>
+        <div class="hero-card-name">{{ $t(card.name) }}</div>
         <div v-if="card.tier" class="hero-card-tier">{{ card.tier }}</div>
         <div class="hero-card-type">
             {{ processCardType(card.type) }}
