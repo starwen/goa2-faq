@@ -31,11 +31,11 @@ jobs:
       - name: Checkout source branch
         run: git checkout ${{ steps.get_branch.outputs.branch }}
 
-      - name: Update package.json version
+      - name: Update my_package.json version
         run: |
           VERSION="${GITHUB_REF##*/}"
           VERSION="${VERSION#v}" # strip "v"-prefix if present
-          jq ".version = \"$VERSION\"" package.json > package.json.tmp && mv package.json.tmp package.json
+          jq ".version = \"$VERSION\"" my_package.json > my_package.json.tmp && mv my_package.json.tmp my_package.json
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git commit -am "update version: $VERSION [no ci]"
