@@ -37,9 +37,9 @@ export default defineConfig({
     base: '/goa2-faq/',
 
     define: {
-        __APP_VERSION__: JSON.stringify(require('./package.json').version),
-        __APP_REPO__: JSON.stringify(require('./package.json').repository.url),
-        __APP_URL__: JSON.stringify(require('./package.json').homepage),
+        __APP_VERSION__: JSON.stringify(require('./my_package.json').version),
+        __APP_REPO__: JSON.stringify(require('./my_package.json').repository.url),
+        __APP_URL__: JSON.stringify(require('./my_package.json').homepage),
         __APP_BUILD_HASH__: '\"' + hash + '\"',
         __APP_BUILD_DATE__: JSON.stringify(new Date().toISOString()),
     },
