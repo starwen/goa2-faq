@@ -63,11 +63,11 @@
         "alternative": false
     },
     {
-        "id": "cut-blue-ii-barrage",
+        "id": "cut-blue-i-barrage",
         "name": "Barrage",
         "color": "blue",
         "type": "skill",
-        "tier": "II",
+        "tier": "I",
         "text": "An enemy hero in radius, adjacent to another enemy unit and not adjacent to you, discards a card, if able.",
         "alternative": false
     },
